@@ -9,6 +9,8 @@ if [ $pilih = "y" ];
 then
     echo -e '\e[1;37m'"Sedang mengunjungi.."
     sleep 9
+    python2 web.py
+    sleep 2
     echo -e '\e[1;31m'"Kamu tidak membayar.."
     sleep 2
     exit
